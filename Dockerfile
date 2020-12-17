@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 3300
 
 ##
-CMD ["node", "app.js"]
-# CMD [ "npm", "start" ]
+# CMD ["node", "app.js"]
+CMD [ "npm", "start" ]
